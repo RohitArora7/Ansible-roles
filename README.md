@@ -1,5 +1,5 @@
 # Ansible-roles
-
+```bash
 mkdir ueransim
 
 ansible-galaxy init ueransim
@@ -21,8 +21,8 @@ ansible-galaxy init ueransim
 │   └── test.yml
 └── vars
     └── main.yml
-
-
+```
+```bash
 touch runsetup.yml - outside ueransim folder
 
  - hosts: demo
@@ -35,6 +35,6 @@ touch runsetup.yml - outside ueransim folder
 vim main.yml - inside task folder 
 
 - import_tasks: install-depd.yaml
-
+```
 
 
